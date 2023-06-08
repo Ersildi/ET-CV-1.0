@@ -1,0 +1,244 @@
+/* bebas-neue-regular - latin */
+@font-face {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/bebas-neue-v9-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/bebas-neue-v9-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/bebas-neue-v9-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/bebas-neue-v9-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/bebas-neue-v9-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/bebas-neue-v9-latin-regular.svg#BebasNeue") format("svg"); /* Legacy iOS */
+}
+
+.body {
+  font-family: sans-serif;
+  margin: none;
+}
+
+.container {
+  display: flex;
+  margin: auto;
+  width: 210mm;
+  height: 297mm;
+  /* padding: 10px; */
+}
+
+.firstcolumn {
+  width: 40%;
+}
+
+.picture {
+  width: 100%;
+  height: 25%;
+  background-image: url("img.jpg");
+  background-size: cover;
+  border-radius: 20px;
+}
+
+/* About Skills Start */
+
+.aboutskills {
+  display: grid;
+  background-image: linear-gradient(to bottom, blue, black);
+  color: white;
+  padding: 20px;
+  margin-top: 3%;
+  height: 70%;
+  border-radius: 20px;
+}
+
+.aboutme {
+  margin: auto;
+}
+
+#aboutmelist {
+  text-transform: capitalize;
+  list-style: circle;
+  list-style-position: outside;
+  position: relative;
+  right: 20px;
+}
+
+/* About Skills End */
+
+/* Languages Start */
+
+.languages {
+  display: grid;
+  align-items: center;
+}
+
+.alb {
+  display: flex;
+  justify-content: space-around;
+}
+
+.table {
+  display: table;
+}
+
+.row {
+  display: table-row;
+}
+
+.cell {
+  display: table-cell;
+  text-align: center;
+}
+
+.row,
+.cell {
+  padding: 3px;
+}
+
+/* Languages End */
+
+/* Dev Start */
+
+.dev {
+  display: grid;
+  align-items: center;
+}
+
+#devd {
+  display: flex;
+}
+
+.devp {
+  display: grid;
+  align-items: center;
+}
+
+#devp1 {
+  width: 40%;
+}
+
+#devp2 {
+  width: 60%;
+}
+
+.devprop {
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.bar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  height: 12px;
+  background-color: rgb(50, 50, 255);
+}
+
+#htmlbar {
+  width: 100%;
+}
+
+#cssbar {
+  width: 90%;
+}
+
+#jsbar {
+  width: 70%;
+}
+
+#linuxbar {
+  width: 85%;
+}
+
+#netbar {
+  width: 95%;
+}
+
+/* Dev End */
+
+h2 {
+  text-align: center;
+  letter-spacing: 8px;
+}
+
+.secondcolumn {
+  width: 60%;
+}
+
+.nameaddress {
+  display: grid;
+  justify-content: center;
+  height: 25%;
+}
+
+.name {
+  align-self: flex-end;
+}
+
+.line {
+  height: 15px;
+  background-color: rgb(228, 253, 84);
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 58px;
+  font-family: "BebasNeueBold";
+  font-weight: normal;
+  font-style: normal;
+  margin: auto;
+}
+
+.address {
+  display: grid;
+  align-self: center;
+}
+
+#details {
+  text-align: center;
+  letter-spacing: 2px;
+  color: gray;
+}
+
+.experience {
+  display: grid;
+  padding: 10px;
+}
+
+h3 {
+  letter-spacing: 10px;
+  font-size: 42px;
+  font-family: "BebasNeueRegular";
+  font-weight: normal;
+  font-style: normal;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+h4 {
+  letter-spacing: 2px;
+  font-family: "BebasNeueRegular", "Helvetica Neue", Helvetica, Arial Unicode;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  color: gray;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#description {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.education {
+  display: grid;
+  padding: 10px;
+}
